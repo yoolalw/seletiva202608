@@ -13,11 +13,14 @@
         android:id="@+id/editTextText9"
         android:layout_width="127dp"
         android:layout_height="43dp"
+        android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="Horario"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="190dp"
-        tools:layout_editor_absoluteY="430dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <CheckBox
         android:id="@+id/checkBox44"
@@ -308,11 +311,25 @@
         android:id="@+id/editTextText8"
         android:layout_width="127dp"
         android:layout_height="43dp"
+        android:layout_marginTop="96dp"
         android:ems="10"
         android:hint="Horario"
         android:textSize="15sp"
-        tools:layout_editor_absoluteX="181dp"
-        tools:layout_editor_absoluteY="574dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.669"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText9" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Seu imc, com base nos seus dados é:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberDecimal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
